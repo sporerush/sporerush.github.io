@@ -1,0 +1,20 @@
+{
+  "_readme": "SporeRush live promo codes. Host this file (e.g. GitHub Pages) and set REMOTE_PROMO_CODES_URL in src/config/promoCodes.ts. Entries are merged over the codes bundled in the app by code (case-insensitive): add new codes, set active:false to disable one, change rewards, or add expiresAt (ISO date). Reward keys: gems, coins, minerals, spores, biomass, lootCardDays, apexPulls, gear {set: beetle|plague|starforged, slot: weapon|helm|armor|core, rarity: 0-3}. publicInCodex:true shows a code in-game — keep it on SPORERUSH only. This file is PUBLIC: only list codes you are happy for anyone to read (bundled secret codes don't need to be repeated here).",
+  "codes": [
+    {
+      "code": "SPORERUSH",
+      "active": true,
+      "publicInCodex": true,
+      "description": "Official launch welcome pack — welcome to SporeRush, Commander!",
+      "rewards": { "gems": 500, "spores": 50, "minerals": 250 }
+    },
+    {
+      "code": "EXAMPLE2027",
+      "active": false,
+      "publicInCodex": false,
+      "expiresAt": "2027-01-31T23:59:59Z",
+      "description": "Example limited-time code (inactive)",
+      "rewards": { "gems": 100, "coins": 1000, "biomass": 50 }
+    }
+  ]
+}
